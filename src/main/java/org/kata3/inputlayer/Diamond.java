@@ -21,7 +21,7 @@ public class Diamond {
             if (i%2 > 0) {
                 for (int j = 1; j <= dimension - i; j=j+2) {
                     sb.append(" ");
-                } // TODO: change space to x
+                } // TODO: change space to x to see the structure
                 for (int k = 1; k <= i; k++) {
                     sb.append("*");
                 }
@@ -33,7 +33,7 @@ public class Diamond {
             if (i%2 > 0) {
                 for (int j = 1; j <= dimension - i; j=j+2) {
                     sb.append(" ");
-                } // TODO: change space to x
+                } // TODO: change space to x to see the structure
                 for (int k = 1; k <= i; k++) {
                     sb.append("*");
                 }
